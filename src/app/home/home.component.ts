@@ -15,10 +15,12 @@ import { CommonModule } from '@angular/common';
 export class HomeComponent {
   housingLocationList: HousingLocation[] = [
     {
+      id: 1,
       name: 'Acme Fresh Start Housing',
       city: 'Chicago'
     },
     {
+      id: 2,
       name: 'A113 Transitional Housing',
       city: 'Santa Monica'
     }

@@ -1,4 +1,6 @@
 <section>
+    <p>{{ housingLocation.id }}</p>
     <h2>{{ housingLocation.name }}</h2>
     <p>{{ housingLocation.city }}</p>
+    <a [routerLink]="['/details', housingLocation.id]">Learn more</a>
 </section>
