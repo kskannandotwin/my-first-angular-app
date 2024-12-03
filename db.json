@@ -1,0 +1,19 @@
+{
+    "locations": [
+        {
+            "id": 0,
+            "name": "Acme Fresh Start Housing",
+            "city": "Chicago"
+        },
+        {
+            "id": 1,
+            "name": "A113 Transitional Housing",
+            "city": "Santa Monica"
+        },
+        {
+            "id": 2,
+            "name": "Warm Beds Housing Support",
+            "city": "Juneau"
+        }
+    ]
+}
