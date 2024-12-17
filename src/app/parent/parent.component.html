@@ -1,0 +1,4 @@
+<button (click)="toggle()">Toggle Child</button>
+<div [@parentAnimation]="isChildVisible ? 'visible' : 'hidden'">
+  <app-child *ngIf="isChildVisible" @childAnimation></app-child>
+</div>
